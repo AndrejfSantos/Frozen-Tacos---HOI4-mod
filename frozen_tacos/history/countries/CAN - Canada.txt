@@ -276,6 +276,17 @@ create_corps_commander = {
 }
 
 create_field_marshal = {
+	name = "John McAttack"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	traits = { trickster trait_engineer fortress_buster }
+	skill = 5
+    attack_skill = 5
+    defense_skill = 2
+    planning_skill = 4
+    logistics_skill = 3
+}
+
+create_field_marshal = {
 	name = "Charles Foulkes"
 	gfx = "GFX_CAN_charles_foulkes"
 	traits = { }
