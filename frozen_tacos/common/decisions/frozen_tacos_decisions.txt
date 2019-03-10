@@ -1,0 +1,33 @@
+political_actions = {
+	"The need for Burgers" = {
+
+    	icon = generic_civil_support
+
+    	visible = {
+			OR = {
+				original_tag = CAN
+				original_tag = MEX
+			}
+		}
+
+		available = {
+            fascism < 0.9
+        }
+	
+		modifier = {
+			fascism_drift = 0.15
+			stability_weekly = 0.007
+		}
+	
+		days_remove = 150
+		cost = 10
+
+		complete_effect = {
+			add_stability = 0.1
+			add_ideas = limited_conscription
+		}
+		
+		remove_effect = {
+		}
+    }
+}
